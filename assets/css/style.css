@@ -8,13 +8,14 @@
 }
 
 body{
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    background:
+        linear-gradient(rgba(13, 27, 42, 0.45), rgba(13, 27, 42, 0.45)),
+        url('../img/background.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container{

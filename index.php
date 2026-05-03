@@ -31,7 +31,7 @@
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Senha">
-                <button>Sign Up</button>
+                <button type="button">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in">
@@ -55,7 +55,7 @@
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Senha">
                 <a href="#">Forget Your Password?</a>
-                <button>Sign In</button>
+                <button type="button">Sign In</button>
             </form>
         </div>
         <div class="toggle-container">
@@ -63,12 +63,12 @@
                 <div class="toggle-panel toggle-left">
                     <h1>Welcome Back!</h1>
                     <p>Entre com seus dados para acessar</p>
-                    <button class="hidden" id="login">Sign In</button>
+                    <button type="button" class="hidden" id="login">Sign In</button>
                 </div>
                 <div class="toggle-panel toggle-right">
                     <h1>Hello, Friend!</h1>
                     <p>Registre com seus dados</p>
-                    <button class="hidden" id="register">Sign Up</button>
+                    <button type="button" class="hidden" id="register">Sign Up</button>
                 </div>
             </div>
         </div>
